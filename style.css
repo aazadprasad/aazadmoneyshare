@@ -1,0 +1,270 @@
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+
+}
+
+/*header*/
+.nav{
+	font-weight: bold;
+}
+
+.navbar{
+	border-bottom:2px solid #9ddac6;
+	margin-bottom:0;
+}
+
+.navbar-brand{
+	color:#ff4848;
+	font-size:30px;
+}
+
+.navbar-toggle {
+    border-color: green;
+}
+
+.nav li a{
+	transition: 0.7s;
+}
+.nav li a:hover{
+	background:#c2ffd9; 
+
+}
+
+.icon-bar{
+	background: red;
+}
+
+/*index content*/
+
+
+#banner-image{
+
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+	height: 700px;
+	border: 0px solid red;
+	color: #f8f8f8;
+	text-align: center;
+	background:url("images/3.jpg") no-repeat center; 
+	background-size: cover;
+}
+
+.banner_content{
+	
+	
+	position: relative; 
+	padding-top: 6%; 
+	padding-bottom: 6%; 
+	margin-top: 12%; 
+	margin-bottom: 12%; 
+	background-color: rgba(0, 0, 0, 0.7); 
+	max-width: 660px; 
+
+
+}
+
+
+.btn{
+	font-size:25px;
+}
+
+td .btn{
+	font-size:15px;
+}
+
+tr:nth-child(2n){
+	background: #edeef7;
+}
+
+.table{
+	margin-top:10px;
+}
+
+
+.btn:hover{
+	background-color: blue;
+	
+}
+
+
+/*users details*/
+
+
+.profile 
+{
+    min-height: 355px;
+    display: inline-block;
+
+    }
+
+.well{
+	margin-top: 10px;
+	box-shadow: 3px 3px 5px 4px grey;
+
+}
+.split{
+	display: flex;
+	flex-direction: row;
+	gap:40px;
+
+}
+h2{
+	white-space: nowrap;
+}
+
+.detail{
+	margin:30px; 
+}
+
+/*transfer*/
+.panel{
+	
+	margin-top:20px;
+
+	
+}
+.act{
+	font-size: 20px; 
+	padding: 5px;
+	margin:5px;
+	border-radius: 30px;
+	border: 2px solid green;
+}
+
+#b2{
+	color: red;
+	float:right;
+	width: 40%;
+	border: 2px solid red;
+}
+
+#b1{
+	color: green;
+	width: 40%;
+	border: 2px solid green;
+
+}
+#b1:hover{
+	background:green;
+	color:white;
+}
+
+#b2:hover{
+	background:red;
+	color:white;
+}
+
+/*success*/
+
+.done{
+	text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+}
+	
+#tran1 {
+  color: #88B04B;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#tran2 {
+  color: #404F5E;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size:20px;
+  margin: 0;
+}
+i {
+color: #9ABC66;
+font-size: 100px;
+line-height: 200px;
+margin-left:-15px;
+}
+.card {
+background: white;
+padding: 60px;
+border-radius: 4px;
+box-shadow: 0 2px 3px #C8D0D8;
+display: inline-block;
+margin: 0 auto;
+}
+
+
+
+/*transction history*/
+
+.upper{
+	background:lightgreen;
+}
+
+
+/**/
+#checks{
+	font-size: 20px;
+}
+
+
+/*index media*/
+@media only screen and (max-width:1200px){
+	#banner-image{
+		height:600px;
+	}
+
+}
+
+
+@media only screen and (max-width:392px){
+	.act{
+		font-size: 15px; 
+	}
+
+	#b2{
+		width: 30%;
+	}
+
+	#b1{
+		width: 30%;
+	}
+	#checks{
+		font-size: 15px;
+	}
+																																							
+
+}
+
+
+
+
+@media only screen and (max-width:992px){
+	#banner-image{
+		height:500px;
+	}
+
+}
+
+@media only screen and (max-width:768px){
+	#banner-image{
+		height:400px;
+	}
+	.split{
+		flex-direction: column;
+	}
+	.profile{
+	display: block;
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+
+}
+@media only screen and (max-width:600px){
+	#banner-image{
+		height:300px;
+	}
+
+}
