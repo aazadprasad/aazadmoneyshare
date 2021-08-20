@@ -9,7 +9,7 @@ ___
 
 [REPOSITORY LINK](https://github.com/aazadprasad/aazadmoneyshare.git "Repository link")
 
-HOSTED ON GITHUB,
+HOSTED ON 000webhost,
 [VISIT MY WEBSITE](https://aazadmoneyshare.000webhostapp.com/ "Website link") 
 ___
 
