@@ -45,7 +45,7 @@
 										
 										<div class="form-group">
 											<label style="font-size: 20px; color: tomato">	Email:</label>
-											<input type="Email" id="s2" class="form-control input-lg"  name="email" placeholder="Enter email" style="width:100%; height: 50px; border-radius: 30px;" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,3}$" required>
+											<input type="Email" id="s2" class="form-control input-lg"  name="email" placeholder="Enter Receiver's Email" style="width:100%; height: 50px; border-radius: 30px;" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,3}$" required>
 										</div>
 										<div><h5 style="color:red;padding-left: 15px;"><?php echo $_GET['e_error']; ?></h3></div>
 										
